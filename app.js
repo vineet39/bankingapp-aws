@@ -6,7 +6,6 @@ import User from "./models/User.js";
 import cors from "cors";
 import dotenv from "dotenv";
 import { authenticateToken } from "./authMiddleware.js";
-import jwt from "jsonwebtoken";
 
 dotenv.config();
 
